@@ -5,9 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+    to left,
+    #246C60,
+    #2D4571
+  );
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  font-family: 'Bigelow Rules', cursive;
+  font-size: 100px;
+  position: relative;
+  bottom: 30px;
+  margin: 0 auto;
+  margin-top: 25px;
+  color: rgb(37, 13, 44);
+  letter-spacing: 6px;
+}
+
+h2 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 40px;
+  font-weight: bold;
 }

@@ -1,0 +1,16 @@
+.card {
+    border: 1px solid gray;
+    border-radius: 30px;
+    background-color: rgb(127, 162, 168);
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.mon-image {
+    width: 180px;
+    height: 180px;
+}
